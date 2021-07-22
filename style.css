@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.container{
+    border: 3px solid gray;
+    width: 700px;
+    height: 270px;
+    padding: 40px 40px;
+    background: linear-gradient(180deg, rgba(0,190,255,1) 25%, rgba(255,255,255,1) 25%);
+}
+
+#user{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+h1{
+    font-size: 45px;
+    padding-bottom: 10px;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+#map{
+    width: 15px;
+}
+
+.location h3{
+    margin-left: 10px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+.edit{
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+}
+
+#gear{
+    width: 19px;
+    padding-right: 10px;
+}
+
+p{
+    font-size: 18px;
+}
+
+a{
+    font-size: 18px;
+}
